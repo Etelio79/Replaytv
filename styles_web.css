@@ -1,0 +1,111 @@
+
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #FFF;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    
+    h2 {
+      font-weight: bold;
+      margin: 5px 0;
+      color: #FFF;
+      font-size: 1.2em;
+    }
+
+    /* Encabezado */
+    header {
+      background-color: #000;
+      padding: 20px 0;
+      position: relative;
+    }
+    .header-image {
+      width: 120px;
+      height: auto;
+    }
+    .section-title {
+      font-size: 1.5em;
+      color: #FFF;
+      margin-top: 5px;
+    }
+    .divider {
+      width: 50px;
+      height: 2px;
+      background-color: #ff0000; 
+      margin: 10px auto; 
+    }
+ 
+    /* Sección de características */ 
+    .features-list {
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKXxgFZxS-NDXj_9KsxJHqlmpS76BzhJUI5A&usqp=CAU'); /* URL de fondo */
+      background-size: cover;
+      padding: 30px;
+      color: #FFF;
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto;
+      border-radius: 10px;
+      font-size: 1.1em;
+    }
+    .features-list h2 {
+      color: #FFF;
+      font-size: 1em;
+    }
+
+    /* Botón de descarga */
+    .button-download {
+      display: inline-block;
+      padding: 12px 30px;
+      background-color: blue;
+      color: #FFF;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 20px;
+      margin-top: 20px;
+      font-size: 1.1em;
+    }
+    .button-download:hover {
+      background-color: #e60000;
+    }
+
+    /* Secciones de contenido */
+    .content-section {
+      background-color: #111;
+      padding: 40px 20px;
+      margin: 10px auto;
+      border-radius: 8px;
+      max-width: 800px;
+      color: #FFF;
+    }
+    .content-section h2 {
+      font-size: 1.2em;
+      color: #FFF;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .content-section p {
+      color: #AAA;
+      font-size: 1em;
+      margin: 10px 0;
+    }
+    
+    /* Estilo para las imágenes */
+    .elementor-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    /* Líneas divisorias */
+    .horizontal-line {
+      width: 80%;
+      height: 1px;
+      background-color: #333;
+      margin: 20px auto;
+    }
+}
+  
